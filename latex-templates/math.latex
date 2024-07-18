@@ -1,0 +1,17 @@
+%%%%% Math %%%%%
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage[warnings-off={mathtools-colon,mathtools-overbracket}]{unicode-math}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{mindmap,trees}
+\usepackage{braket}
+\usepackage{cases}
+\usepackage{esint}
+\usepackage{booktabs}
+\usepackage{extarrows}
+\renewcommand{\AA}{\overset{\circ}{\text{A}}}
+\newcommand{\bm}{\symbfit}
+\newenvironment{lrcases}{\left\lbrace\begin{rcases}}{\end{rcases}\right.}
+\usepackage[version=4]{mhchem}

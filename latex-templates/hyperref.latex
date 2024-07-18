@@ -1,0 +1,3 @@
+%%%%% Hyperref %%%%%
+\usepackage{hyperref}
+\hypersetup{ hidelinks, colorlinks=true, allcolors=red, pdfstartview=fit, breaklinks=true, }

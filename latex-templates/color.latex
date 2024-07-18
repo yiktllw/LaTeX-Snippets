@@ -1,0 +1,8 @@
+%%%%% Color %%%%%
+\usepackage{xcolor}
+\definecolor{mygrey}{rgb}{0.5,0.5,0.5}
+\definecolor{mybrown}{rgb}{0.5,0.5,0}
+\definecolor{myred}{rgb}{0.5,0,0}
+\definecolor{mygreen}{rgb}{0,0.5,0}
+\definecolor{myblue}{rgb}{0,0,0.8}
+\definecolor{yikt}{rgb}{0.8,0.55,0.65}

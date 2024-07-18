@@ -1,0 +1,39 @@
+%%%%% Homework Template %%%%%
+\ifdefined\XeTeXversion\else\ifdefined\pdftexversion\else \newcount\pdftexversion\pdftexversion=140 \def\pdftexrevision{18} \fi\fi
+\documentclass[11pt,a4paper,fontset=none]{ctexart}
+\usepackage{geometry}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+\usepackage{fontsize}
+\usepackage{fancyhdr}
+\setlength{\headheight}{24pt}
+\usepackage{float}
+\usepackage{fix-cm}
+\usepackage{anyfontsize}
+\usepackage{wrapfig}
+\usepackage{silence}
+\WarningFilter{latexfont}{}
+
+###math.latex
+
+###color.latex
+
+###hyperref.latex
+
+###document_setting.latex
+
+%%%%% Begin Document %%%%%
+\begin{document}
+\fontsize{11}{16}
+\title{$1作业}
+\author{${2:}}
+\date{\today}
+\maketitle
+\pagestyle{fancy}
+
+%%%%% Begin Content %%%%%
+
+$0
+
+
+%%%%% End Content %%%%%
+\end{document}

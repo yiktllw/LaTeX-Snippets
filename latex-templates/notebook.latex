@@ -1,0 +1,59 @@
+%%%%% Notebook Template %%%%%
+\ifdefined\XeTeXversion\else\ifdefined\pdftexversion\else \newcount\pdftexversion\pdftexversion=140 \def\pdftexrevision{18} \fi\fi
+\documentclass[11pt,a4paper,fontset=none]{ctexbook}
+\usepackage{geometry}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+\usepackage{fontsize}
+\usepackage{fancyhdr}
+\setlength{\headheight}{24pt}
+\usepackage{float}
+\usepackage{fix-cm}
+\usepackage{anyfontsize}
+\usepackage{wrapfig}
+\usepackage{silence}
+\WarningFilter{latexfont}{}
+
+###math.latex
+
+###color.latex
+
+###hyperref.latex
+
+###document_setting.latex
+
+%%%%% Begin Document %%%%%
+\begin{document}
+\fontsize{11}{16}
+\begin{titlepage}
+    \centering
+    {\hspace{1em}}\vspace{15em} 
+
+    {\HUGE \bf ${1:量子力学}笔记本space$2 } \vspace{2em}
+
+    {\Large ${3:}}\vspace{1em} 
+
+    {\large\today}
+    \thispagestyle{empty}
+\end{titlepage}
+\setcounter{page}{-100}
+\pagestyle{plain}
+\tableofcontents
+\newpage \thispagestyle{empty}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhead[RO,LE]{\color[rgb]{0.8,0.55,0.65}
+    \ifnum\value{page}>0
+        \leftmark % 正文部分显示页眉样式
+    \fi
+}
+\fancyhead[LO,RE]{\color{yikt}\rightmark}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{yikt}\leaders\hrule height \headrulewidth\hfill}}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%%%%% Begin Content %%%%%
+
+$0
+
+%%%%% End Content %%%%%
+\end{document}
